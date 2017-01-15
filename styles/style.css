@@ -1,0 +1,104 @@
+#app {
+	width: 100%;
+	height: 100vh;
+	background-color:tomato;
+}
+#main {
+	padding:0;
+	background-color:white;
+}
+#nav {
+	height: 80px;
+}
+
+#logo a{
+	display:block;
+	width:250px;
+	height:40px;
+	margin: 0 auto;
+	text-align:center;
+	font-family: 'Pacifico', cursive;
+	font-size: 250%;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#menu {
+	height: auto;
+	width:100%;
+
+}
+
+.menutab {
+	background-color:#ffecd8;
+	border-right:1px solid #ffc77a;
+	border-left:1px solid #ffc77a;
+	height:30px;
+	text-align:center;
+	font-size: 150%;
+	font-family: 'Raleway', sans-serif;
+}
+.menutab:hover{
+	background-color:#d3a16b;
+	font-size:170%;
+    -webkit-transition: all 500ms linear;
+
+}
+#alarm{
+	margin:auto;
+	padding:20px;
+	height: 90vh;
+	width:100%;
+	background-color:tomato;
+	text-align:center;
+}
+#alarmPlayer{
+	display:block;
+	position:relative;
+	margin:0 auto;
+	background-color:white;
+
+	height:100%;
+	border-radius:25px;
+}
+
+
+#song{
+	margin:auto;
+	padding:20px;
+	height: 90vh;
+	width:100%;
+	background-color:indigo;
+	text-align:center;
+}
+#songPlayer{
+	display:block;
+	position:relative;
+	margin:0 auto;
+	background-color:white;
+
+	height:100%;
+	border-radius:25px;
+}
+
+
+#settings{
+	margin:auto;
+	padding:20px;
+	height: 90vh;
+	width:100%;
+	background-color:black;
+	text-align:center;
+}
+#settingsPlayer{
+	display:block;
+	position:relative;
+	margin:0 auto;
+	background-color:white;
+
+	height:100%;
+	border-radius:25px;
+}
+.activeTab{
+	background-color:#ffbe7a;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "alarm",
+  "version": "1.0.0",
+  "description": "plan and see results and wake you up",
+  "main": "index.js",
+  "scripts": {
+    "live": "live-server --open=./index.html --port=8081",
+    "babel": "babel . --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline --watch",
+    "start": "concurrently \"npm run live\" \"npm run babel\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceruberu/ReactPracticeAlarm.git"
+  },
+  "author": "Duck Yeon Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceruberu/ReactPracticeAlarm/issues"
+  },
+  "homepage": "https://github.com/ceruberu/ReactPracticeAlarm#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "concurrent": "^0.3.2"
+  }
+}
